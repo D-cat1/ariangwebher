@@ -1,5 +1,7 @@
 FROM node:lts-buster
 
+RUN apt install ca-certificates
+
 WORKDIR /app
 COPY package.json .
 COPY setup.sh .
