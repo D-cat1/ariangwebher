@@ -10,6 +10,10 @@
 		"httpsrv": "^0.3.2",
 		"request": "^2.88.2"
 	},
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-cat1/ariangwebher.git"
+  },
 	"scripts": {
 		"start": "node index.js"
 	}
